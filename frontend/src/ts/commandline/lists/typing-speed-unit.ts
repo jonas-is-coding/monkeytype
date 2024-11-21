@@ -53,7 +53,7 @@ const commands: Command[] = [
   {
     id: "changeTypingSpeedUnit",
     display: "Typing speed unit...",
-    icon: "fa-tachometer-alt",
+    icon: "fa-gauge-high",
     subgroup,
   },
 ];

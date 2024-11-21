@@ -5,7 +5,7 @@ const commands: Command[] = [
   {
     id: "changeConfidenceMode",
     display: "Confidence mode...",
-    icon: "fa-backspace",
+    icon: "fa-delete-left",
     subgroup: {
       title: "Confidence mode...",
       configKey: "confidenceMode",

@@ -43,7 +43,7 @@ const commands: Command[] = [
   {
     id: "removeQuoteFromFavorite",
     display: "Remove current quote from favorite",
-    icon: "fa-heart-broken",
+    icon: "fa-heart-crack",
     available: (): boolean => {
       const quote = TestWords.currentQuote;
       return (

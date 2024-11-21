@@ -36,28 +36,28 @@ export async function update(): Promise<void> {
 
   if (TestState.isRepeated && Config.mode !== "quote") {
     $(".pageTest #testModesNotice").append(
-      `<div class="textButton noInteraction" style="color:var(--error-color);"><i class="fas fa-sync-alt"></i>repeated</div>`
+      `<div class="textButton noInteraction" style="color:var(--error-color);"><i class="fas fa-rotate"></i>repeated</div>`
     );
   }
 
   if (!TestState.savingEnabled) {
     $(".pageTest #testModesNotice").append(
-      `<div class="textButton" commands="resultSaving" style="color:var(--error-color);"><i class="fas fa-save"></i>saving disabled</div>`
+      `<div class="textButton" commands="resultSaving" style="color:var(--error-color);"><i class="fas fa-floppy-disk"></i>saving disabled</div>`
     );
   }
 
   if (TestWords.hasTab) {
     if (Config.quickRestart === "esc") {
       $(".pageTest #testModesNotice").append(
-        `<div class="textButton noInteraction"><i class="fas fa-long-arrow-alt-right"></i>shift + tab to open commandline</div>`
+        `<div class="textButton noInteraction"><i class="fas fa-right-long"></i>shift + tab to open commandline</div>`
       );
       $(".pageTest #testModesNotice").append(
-        `<div class="textButton noInteraction"><i class="fas fa-level-down-alt fa-rotate-90"></i>shift + esc to restart</div>`
+        `<div class="textButton noInteraction"><i class="fas fa-turn-down fa-rotate-90"></i>shift + esc to restart</div>`
       );
     }
     if (Config.quickRestart === "tab") {
       $(".pageTest #testModesNotice").append(
-        `<div class="textButton noInteraction"><i class="fas fa-level-down-alt fa-rotate-90"></i>shift + tab to restart</div>`
+        `<div class="textButton noInteraction"><i class="fas fa-turn-down fa-rotate-90"></i>shift + tab to restart</div>`
       );
     }
   }
@@ -67,7 +67,7 @@ export async function update(): Promise<void> {
     Config.quickRestart === "enter"
   ) {
     $(".pageTest #testModesNotice").append(
-      `<div class="textButton noInteraction"><i class="fas fa-level-down-alt fa-rotate-90"></i>shift + enter to restart</div>`
+      `<div class="textButton noInteraction"><i class="fas fa-turn-down fa-rotate-90"></i>shift + enter to restart</div>`
     );
   }
 
@@ -87,13 +87,13 @@ export async function update(): Promise<void> {
 
   if (Config.mode === "zen") {
     $(".pageTest #testModesNotice").append(
-      `<div class="textButton noInteraction"><i class="fas fa-poll"></i>shift + enter to finish zen </div>`
+      `<div class="textButton noInteraction"><i class="fas fa-square-poll-vertical"></i>shift + enter to finish zen </div>`
     );
   }
 
   if (Config.mode !== "zen") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="languages"><i class="fas fa-globe-americas"></i>${getLanguageDisplayString(
+      `<button class="textButton" commands="languages"><i class="fas fa-earth-americas"></i>${getLanguageDisplayString(
         Config.language,
         Config.mode === "quote"
       )}</button>`
@@ -102,7 +102,7 @@ export async function update(): Promise<void> {
 
   if (Config.difficulty === "expert") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="difficulty"><i class="fas fa-star-half-alt"></i>expert</button>`
+      `<button class="textButton" commands="difficulty"><i class="fas fa-star-half-stroke"></i>expert</button>`
     );
   } else if (Config.difficulty === "master") {
     $(".pageTest #testModesNotice").append(
@@ -132,7 +132,7 @@ export async function update(): Promise<void> {
     });
 
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="paceCaretMode"><i class="fas fa-tachometer-alt"></i>${
+      `<button class="textButton" commands="paceCaretMode"><i class="fas fa-gauge-high"></i>${
         Config.paceCaret === "average"
           ? "average"
           : Config.paceCaret === "pb"
@@ -208,18 +208,18 @@ export async function update(): Promise<void> {
 
   if (Config.confidenceMode === "on") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="confidenceMode"><i class="fas fa-backspace"></i>confidence</button>`
+      `<button class="textButton" commands="confidenceMode"><i class="fas fa-delete-left"></i>confidence</button>`
     );
   }
   if (Config.confidenceMode === "max") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="confidenceMode"><i class="fas fa-backspace"></i>max confidence</button>`
+      `<button class="textButton" commands="confidenceMode"><i class="fas fa-delete-left"></i>max confidence</button>`
     );
   }
 
   if (Config.stopOnError !== "off") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="stopOnError"><i class="fas fa-hand-paper"></i>stop on ${Config.stopOnError}</button>`
+      `<button class="textButton" commands="stopOnError"><i class="fas fa-hand"></i>stop on ${Config.stopOnError}</button>`
     );
   }
 
@@ -234,7 +234,7 @@ export async function update(): Promise<void> {
 
   if (Config.oppositeShiftMode !== "off") {
     $(".pageTest #testModesNotice").append(
-      `<button class="textButton" commands="oppositeShiftMode"><i class="fas fa-exchange-alt"></i>opposite shift${
+      `<button class="textButton" commands="oppositeShiftMode"><i class="fas fa-right-left"></i>opposite shift${
         Config.oppositeShiftMode === "keymap" ? " (keymap)" : ""
       }</button>`
     );

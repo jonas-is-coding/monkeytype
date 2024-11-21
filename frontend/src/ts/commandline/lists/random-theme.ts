@@ -69,7 +69,7 @@ const commands: Command[] = [
   {
     id: "changeRandomTheme",
     display: "Random theme...",
-    icon: "fa-random",
+    icon: "fa-shuffle",
     subgroup,
   },
 ];

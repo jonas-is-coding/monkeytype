@@ -101,7 +101,7 @@ const badges: Record<number, UserBadge> = {
     id: 12,
     name: "Contributor",
     description: "Contributed to the site",
-    icon: "fa-hands-helping",
+    icon: "fa-handshake-angle",
     color: "var(--text-color)",
     background: "var(--sub-color)",
   },

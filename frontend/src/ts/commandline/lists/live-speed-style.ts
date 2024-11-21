@@ -36,7 +36,7 @@ const commands: Command[] = [
   {
     id: "changeLiveSpeedStyle",
     display: "Live speed style...",
-    icon: "fa-tachometer-alt",
+    icon: "fa-gauge-high",
     alias: "wpm",
     subgroup,
   },

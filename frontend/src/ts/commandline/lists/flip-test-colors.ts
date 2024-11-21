@@ -28,7 +28,7 @@ const commands: Command[] = [
   {
     id: "changeFlipTestColors",
     display: "Flip test colors...",
-    icon: "fa-adjust",
+    icon: "fa-circle-half-stroke",
     subgroup,
   },
 ];

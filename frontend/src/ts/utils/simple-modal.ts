@@ -323,7 +323,7 @@ export class SimpleModal {
             level: 1,
           },
           invalid: {
-            icon: "fa-times",
+            icon: "fa-xmark",
             level: -1,
           },
           checking: {

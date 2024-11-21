@@ -410,7 +410,7 @@ export function updateActive(): void {
     } else if (group === "tags") {
       ret += `<span aria-label="Tags" data-balloon-pos="up"><i class="fas fa-fw fa-tags"></i>`;
     } else if (group === "language") {
-      ret += `<span aria-label="Language" data-balloon-pos="up"><i class="fas fa-fw fa-globe-americas"></i>`;
+      ret += `<span aria-label="Language" data-balloon-pos="up"><i class="fas fa-fw fa-earth-americas"></i>`;
     } else if (group === "funbox") {
       ret += `<span aria-label="Funbox" data-balloon-pos="up"><i class="fas fa-fw fa-gamepad"></i>`;
     }

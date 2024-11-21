@@ -17,8 +17,8 @@ function updateList(): void {
           quote.source
         }">
         <div class="buttons">
-          <button disabled class="textButton undo" aria-label="Undo changes" data-balloon-pos="left"><i class="fas fa-fw fa-undo-alt"></i></button>
-          <button class="textButton refuse" aria-label="Refuse quote" data-balloon-pos="left"><i class="fas fa-fw fa-times"></i></button>
+          <button disabled class="textButton undo" aria-label="Undo changes" data-balloon-pos="left"><i class="fas fa-fw fa-rotate-left"></i></button>
+          <button class="textButton refuse" aria-label="Refuse quote" data-balloon-pos="left"><i class="fas fa-fw fa-xmark"></i></button>
           <button class="textButton approve" aria-label="Approve quote" data-balloon-pos="left"><i class="fas fa-fw fa-check"></i></button>
           <button class="textButton edit hidden" aria-label="Edit and approve quote" data-balloon-pos="left"><i class="fas fa-fw fa-pen"></i></button>
         </div>
@@ -26,7 +26,7 @@ function updateList(): void {
           <div class="length ${
             quote.text.length < 60 ? "red" : ""
           }"><i class="fas fa-fw fa-ruler"></i>${quote.text.length}</div>
-          <div class="language"><i class="fas fa-fw fa-globe-americas"></i>${
+          <div class="language"><i class="fas fa-fw fa-earth-americas"></i>${
             quote.language
           }</div>
           <div class="timestamp"><i class="fas fa-fw fa-calendar"></i>${format(

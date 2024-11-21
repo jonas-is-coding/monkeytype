@@ -5,7 +5,7 @@ const commands: Command[] = [
   {
     id: "changeStopOnError",
     display: "Stop on error...",
-    icon: "fa-hand-paper",
+    icon: "fa-hand",
     subgroup: {
       title: "Stop on error...",
       configKey: "stopOnError",

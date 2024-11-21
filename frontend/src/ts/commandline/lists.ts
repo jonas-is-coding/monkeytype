@@ -204,7 +204,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "viewQuoteSearchPopup",
       display: "Search for quotes",
-      icon: "fa-search",
+      icon: "fa-magnifying-glass",
       exec: (): void => {
         UpdateConfig.setMode("quote");
         void QuoteSearchModal.show();
@@ -247,7 +247,7 @@ export const commands: CommandsSubgroup = {
         return Config.customLayoutfluid;
       },
       input: true,
-      icon: "fa-tint",
+      icon: "fa-droplet",
       exec: ({ input }): void => {
         if (input === undefined) return;
         void UpdateConfig.setCustomLayoutfluid(input);
@@ -329,7 +329,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "randomizeTheme",
       display: "Next random theme",
-      icon: "fa-random",
+      icon: "fa-shuffle",
       exec: async (): Promise<void> => randomizeTheme(),
       available: (): boolean => {
         return Config.randomTheme !== "off";
@@ -362,7 +362,7 @@ export const commands: CommandsSubgroup = {
       id: "watchVideoAd",
       display: "Watch video ad",
       alias: "support donate",
-      icon: "fa-ad",
+      icon: "fa-rectangle-ad",
       exec: (): void => {
         void VideoAdPopup.show();
       },
@@ -370,7 +370,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "importSettingsJSON",
       display: "Import settings JSON",
-      icon: "fa-cog",
+      icon: "fa-gear",
       alias: "import config",
       input: true,
       exec: async ({ input }): Promise<void> => {
@@ -394,7 +394,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "exportSettingsJSON",
       display: "Export settings JSON",
-      icon: "fa-cog",
+      icon: "fa-gear",
       alias: "export config",
       input: true,
       defaultValue: (): string => {
@@ -404,7 +404,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "clearNotifications",
       display: "Clear all notifications",
-      icon: "fa-trash-alt",
+      icon: "fa-trash-can",
       exec: async (): Promise<void> => {
         Notifications.clearAllNotifications();
       },
@@ -412,7 +412,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "clearSwCache",
       display: "Clear SW cache",
-      icon: "fa-cog",
+      icon: "fa-gear",
       exec: async (): Promise<void> => {
         const clist = await caches.keys();
         for (const name of clist) {
@@ -424,7 +424,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "getSwCache",
       display: "Get SW cache",
-      icon: "fa-cog",
+      icon: "fa-gear",
       exec: async (): Promise<void> => {
         alert(await caches.keys());
       },
@@ -432,7 +432,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "copyResultStats",
       display: "Copy result stats",
-      icon: "fa-cog",
+      icon: "fa-gear",
       visible: false,
       exec: async (): Promise<void> => {
         navigator.clipboard
@@ -448,7 +448,7 @@ export const commands: CommandsSubgroup = {
     {
       id: "fpsCounter",
       display: "FPS counter...",
-      icon: "fa-cog",
+      icon: "fa-gear",
       visible: false,
       subgroup: {
         title: "FPS counter...",
@@ -456,7 +456,7 @@ export const commands: CommandsSubgroup = {
           {
             id: "startFpsCounter",
             display: "show",
-            icon: "fa-cog",
+            icon: "fa-gear",
             exec: (): void => {
               FPSCounter.start();
             },
@@ -464,7 +464,7 @@ export const commands: CommandsSubgroup = {
           {
             id: "stopFpsCounter",
             display: "hide",
-            icon: "fa-cog",
+            icon: "fa-gear",
             exec: (): void => {
               FPSCounter.stop();
             },

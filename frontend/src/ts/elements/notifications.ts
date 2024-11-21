@@ -65,15 +65,15 @@ class Notification {
   //-1 - bad
   show(): void {
     let cls = "notice";
-    let icon = `<i class="fas fa-info-circle"></i>`;
+    let icon = `<i class="fas fa-circle-info"></i>`;
     let title = "Notice";
     if (this.level === 1) {
       cls = "good";
-      icon = `<i class="fas fa-check-circle"></i>`;
+      icon = `<i class="fas fa-circle-check"></i>`;
       title = "Success";
     } else if (this.level === -1) {
       cls = "bad";
-      icon = `<i class="fas fa-times-circle"></i>`;
+      icon = `<i class="fas fa-circle-xmark"></i>`;
       title = "Error";
       console.error(this.message);
     }
@@ -175,7 +175,7 @@ class Notification {
             this.duration >= 0
               ? `
           <div class="closeButton">
-            <i class="fas fa-fw fa-times"></i>
+            <i class="fas fa-fw fa-xmark"></i>
           </div>
           `
               : `<div class="righticon">${icon}</div>`

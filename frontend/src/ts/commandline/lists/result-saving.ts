@@ -30,7 +30,7 @@ const commands: Command[] = [
   {
     id: "setResultSaving",
     display: "Result saving...",
-    icon: "fa-save",
+    icon: "fa-floppy-disk",
     alias: "results",
     subgroup,
   },

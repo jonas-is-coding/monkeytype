@@ -209,7 +209,7 @@ function refreshList(): void {
           <button class="textButton toggleActive" style="font-size: 1.25rem">
             ${
               key.enabled
-                ? `<i class="fas fa-fw fa-check-square"></i>`
+                ? `<i class="fas fa-fw fa-square-check"></i>`
                 : `<i class="far fa-fw fa-square"></i>`
             }
           </button>
@@ -228,7 +228,7 @@ function refreshList(): void {
               <i class="fas fa-fw fa-pen"></i>
             </button>
             <button class="deleteButton">
-              <i class="fas fa-fw fa-trash-alt"></i>
+              <i class="fas fa-fw fa-trash-can"></i>
             </button>
           </div>
         </td>

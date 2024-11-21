@@ -28,7 +28,7 @@ const commands: Command[] = [
   {
     id: "changeFreedomMode",
     display: "Freedom mode...",
-    icon: "fa-feather-alt",
+    icon: "fa-feather-pointed",
     subgroup,
   },
 ];

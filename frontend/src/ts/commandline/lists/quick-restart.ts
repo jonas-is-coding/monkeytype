@@ -44,7 +44,7 @@ const commands: Command[] = [
   {
     id: "changeQuickRestart",
     display: "Quick restart...",
-    icon: "fa-redo-alt",
+    icon: "fa-arrow-rotate-right",
     subgroup,
   },
 ];

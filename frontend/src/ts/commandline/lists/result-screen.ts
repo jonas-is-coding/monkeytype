@@ -61,7 +61,7 @@ const commands: Command[] = [
   {
     id: "repeatTest",
     display: "Repeat test",
-    icon: "fa-sync-alt",
+    icon: "fa-rotate",
     exec: (): void => {
       TestLogic.restart({
         withSameWordset: true,
@@ -74,7 +74,7 @@ const commands: Command[] = [
   {
     id: "practiseWords",
     display: "Practice words...",
-    icon: "fa-exclamation-triangle",
+    icon: "fa-triangle-exclamation",
     subgroup: practiceSubgroup,
     available: (): boolean => {
       return TestUI.resultVisible;

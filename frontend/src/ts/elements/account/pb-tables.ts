@@ -12,7 +12,7 @@ function clearTables(isProfile: boolean): void {
   data-balloon-pos="left"
   aria-label="Show all personal bests"
 >
-  <i class="fas fa-ellipsis-v"></i>
+  <i class="fas fa-ellipsis-vertical"></i>
 </button></div>`;
 
   const htmlToShow = isProfile ? "" : showAllButton;
@@ -106,7 +106,7 @@ export function update(personalBests?: PersonalBests, isProfile = false): void {
       data-balloon-pos="left"
       aria-label="Show all personal bests"
     >
-      <i class="fas fa-ellipsis-v"></i>
+      <i class="fas fa-ellipsis-vertical"></i>
     </button></div>`;
 
   $(`.page${source} .profile .pbsTime`).append(text + showAllButton);

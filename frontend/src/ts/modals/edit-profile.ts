@@ -77,7 +77,7 @@ function hydrateInputs(): void {
       currentSelectedBadgeId === -1 ? "selected" : ""
     }" selection-id=${-1}>
       <div class="badge">
-        <i class="fas fa-frown-open"></i>
+        <i class="fas fa-face-frown-open"></i>
         <div class="text">none</div>
       </div>
     </button>`

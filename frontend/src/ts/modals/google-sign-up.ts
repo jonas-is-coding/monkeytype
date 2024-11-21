@@ -135,7 +135,7 @@ const nameIndicator = new InputIndicator($("#googleSignUpModal input"), {
     level: 1,
   },
   unavailable: {
-    icon: "fa-times",
+    icon: "fa-xmark",
     level: -1,
   },
   taken: {

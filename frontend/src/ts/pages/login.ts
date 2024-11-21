@@ -170,7 +170,7 @@ const nameIndicator = new InputIndicator(
       level: 1,
     },
     unavailable: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     taken: {
@@ -193,15 +193,15 @@ const emailIndicator = new InputIndicator(
       level: 1,
     },
     invalid: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     typo: {
-      icon: "fa-exclamation-triangle",
+      icon: "fa-triangle-exclamation",
       level: 1,
     },
     edu: {
-      icon: "fa-exclamation-triangle",
+      icon: "fa-triangle-exclamation",
       level: 1,
     },
   }
@@ -215,7 +215,7 @@ const verifyEmailIndicator = new InputIndicator(
       level: 1,
     },
     mismatch: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
   }
@@ -229,15 +229,15 @@ const passwordIndicator = new InputIndicator(
       level: 1,
     },
     short: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     long: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     weak: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
   }
@@ -251,7 +251,7 @@ const verifyPasswordIndicator = new InputIndicator(
       level: 1,
     },
     mismatch: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
   }

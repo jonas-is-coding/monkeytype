@@ -69,7 +69,7 @@ const commands: Command[] = [
   {
     id: "changeSoundOnError",
     display: "Sound on error...",
-    icon: "fa-volume-mute",
+    icon: "fa-volume-xmark",
     subgroup,
   },
 ];

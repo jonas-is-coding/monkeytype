@@ -338,10 +338,10 @@ function getWordHTML(word: string): string {
     if (funbox?.functions?.getWordHtml) {
       retval += funbox.functions.getWordHtml(char, true);
     } else if (char === "\t") {
-      retval += `<letter class='tabChar'><i class="fas fa-long-arrow-alt-right fa-fw"></i></letter>`;
+      retval += `<letter class='tabChar'><i class="fas fa-right-long fa-fw"></i></letter>`;
     } else if (char === "\n") {
       newlineafter = true;
-      retval += `<letter class='nlChar'><i class="fas fa-level-down-alt fa-rotate-90 fa-fw"></i></letter>`;
+      retval += `<letter class='nlChar'><i class="fas fa-turn-down fa-rotate-90 fa-fw"></i></letter>`;
     } else {
       retval += "<letter>" + char + "</letter>";
     }
@@ -785,10 +785,10 @@ export async function updateActiveWordLetters(
   if (Config.mode === "zen") {
     for (const char of TestInput.input.current) {
       if (char === "\t") {
-        ret += `<letter class='tabChar correct' style="opacity: 0"><i class="fas fa-long-arrow-alt-right fa-fw"></i></letter>`;
+        ret += `<letter class='tabChar correct' style="opacity: 0"><i class="fas fa-right-long fa-fw"></i></letter>`;
       } else if (char === "\n") {
         newlineafter = true;
-        ret += `<letter class='nlChar correct' style="opacity: 0"><i class="fas fa-level-down-alt fa-rotate-90 fa-fw"></i></letter>`;
+        ret += `<letter class='nlChar correct' style="opacity: 0"><i class="fas fa-turn-down fa-rotate-90 fa-fw"></i></letter>`;
       } else {
         ret += `<letter class="correct">${char}</letter>`;
       }
@@ -850,10 +850,10 @@ export async function updateActiveWordLetters(
         }
       } else if (currentLetter === "\t") {
         tabChar = "tabChar";
-        currentLetter = `<i class="fas fa-long-arrow-alt-right fa-fw"></i>`;
+        currentLetter = `<i class="fas fa-right-long fa-fw"></i>`;
       } else if (currentLetter === "\n") {
         nlChar = "nlChar";
-        currentLetter = `<i class="fas fa-level-down-alt fa-rotate-90 fa-fw"></i>`;
+        currentLetter = `<i class="fas fa-turn-down fa-rotate-90 fa-fw"></i>`;
       }
 
       if (charCorrect) {
@@ -902,9 +902,9 @@ export async function updateActiveWordLetters(
       if (funbox?.functions?.getWordHtml) {
         ret += funbox.functions.getWordHtml(currentLetter as string, true);
       } else if (currentLetter === "\t") {
-        ret += `<letter class='tabChar'><i class="fas fa-long-arrow-alt-right fa-fw"></i></letter>`;
+        ret += `<letter class='tabChar'><i class="fas fa-right-long fa-fw"></i></letter>`;
       } else if (currentLetter === "\n") {
-        ret += `<letter class='nlChar'><i class="fas fa-level-down-alt fa-rotate-90 fa-fw"></i></letter>`;
+        ret += `<letter class='nlChar'><i class="fas fa-turn-down fa-rotate-90 fa-fw"></i></letter>`;
       } else {
         ret += `<letter>` + currentLetter + "</letter>";
       }

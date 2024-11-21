@@ -28,7 +28,7 @@ const commands: Command[] = [
   {
     id: "capsLockWarning",
     display: "Caps lock warning...",
-    icon: "fa-exclamation-triangle",
+    icon: "fa-triangle-exclamation",
     subgroup,
   },
 ];

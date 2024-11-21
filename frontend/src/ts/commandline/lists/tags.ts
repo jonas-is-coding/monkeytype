@@ -49,7 +49,7 @@ function update(): void {
   subgroup.list.push({
     id: "clearTags",
     display: `Clear tags`,
-    icon: "fa-times",
+    icon: "fa-xmark",
     sticky: true,
     exec: async (): Promise<void> => {
       const snapshot = DB.getSnapshot();

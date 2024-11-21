@@ -84,7 +84,7 @@ async function setup(modalEl: HTMLElement): Promise<void> {
       level: 1,
     },
     unavailable: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     loading: {

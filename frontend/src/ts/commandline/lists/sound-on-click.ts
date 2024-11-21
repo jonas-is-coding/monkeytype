@@ -201,7 +201,7 @@ const commands: Command[] = [
   {
     id: "changeSoundOnClick",
     display: "Sound on click...",
-    icon: "fa-volume-up",
+    icon: "fa-volume-high",
     subgroup,
   },
 ];

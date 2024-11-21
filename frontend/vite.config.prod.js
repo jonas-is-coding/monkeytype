@@ -38,12 +38,9 @@ function buildClientVersion() {
   }
 }
 
-/** Enable for font awesome v6 */
-/*
 function sassList(values) {
   return values.map((it) => `"${it}"`).join(",");
 }
-*/
 
 /** @type {import("vite").UserConfig} */
 export default {
@@ -183,8 +180,7 @@ export default {
     QUICK_LOGIN_EMAIL: undefined,
     QUICK_LOGIN_PASSWORD: undefined,
   },
-  /** Enable for font awesome v6 */
-  /*preprocessorOptions: {
+  preprocessorOptions: {
     scss: {
       additionalData(source, fp) {
         if (fp.endsWith("index.scss")) {
@@ -202,5 +198,5 @@ export default {
         }
       },
     },
-  },*/
+  },
 };

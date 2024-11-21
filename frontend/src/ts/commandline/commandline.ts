@@ -580,7 +580,7 @@ function updateInput(setInput?: string): void {
       element.setSelectionRange(0, element.value.length);
     }
   } else {
-    iconElement.innerHTML = '<i class="fas fa-search"></i>';
+    iconElement.innerHTML = '<i class="fas fa-magnifying-glass"></i>';
     element.placeholder = "Search...";
 
     let length = inputValue.length;

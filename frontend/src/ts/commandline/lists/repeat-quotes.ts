@@ -28,7 +28,7 @@ const commands: Command[] = [
   {
     id: "changeRepeatQuotes",
     display: "Repeat quotes...",
-    icon: "fa-sync-alt",
+    icon: "fa-rotate",
     subgroup,
   },
 ];

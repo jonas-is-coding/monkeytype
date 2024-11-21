@@ -44,7 +44,7 @@ const commands: Command[] = [
   {
     id: "setEnableAds",
     display: "Enable ads...",
-    icon: "fa-ad",
+    icon: "fa-rectangle-ad",
     subgroup,
   },
 ];

@@ -4329,7 +4329,7 @@ backend/anticheat
         <div class="top">
           <div class="title">Approve Quotes</div>
           <div class="button refreshList">
-            <i class="fas fa-sync-alt"></i>
+            <i class="fas fa-rotate"></i>
             Refresh list
           </div>
         </div>
@@ -4494,7 +4494,7 @@ backend/anticheat
         </div>
         <div class="buttons">
           <div class="button ads">
-            <div class="icon"><i class="fas fa-ad"></i></div>
+            <div class="icon"><i class="fas fa-rectangle-ad"></i></div>
             <div class="text">Enable Ads</div>
           </div>
           <a
@@ -4503,7 +4503,7 @@ backend/anticheat
             target="_blank"
             rel="noreferrer"
           >
-            <div class="icon"><i class="fas fa-donate"></i></div>
+            <div class="icon"><i class="fas fa-circle-dollar-to-slot"></i></div>
             <div class="text">Donate</div>
           </a>
           <a
@@ -4525,7 +4525,7 @@ backend/anticheat
             target="_blank"
             rel="noreferrer"
           >
-            <div class="icon"><i class="fas fa-tshirt"></i></div>
+            <div class="icon"><i class="fas fa-shirt"></i></div>
             <div class="text">Buy Merch</div>
           </a>
         </div>
@@ -4550,7 +4550,7 @@ backend/anticheat
             target="_blank"
             href="mailto:jack@monkeytype.com?subject=[Question] "
           >
-            <div class="icon"><i class="fas fa-question-circle"></i></div>
+            <div class="icon"><i class="fas fa-circle-question"></i></div>
             <div class="textGroup">
               <div class="text">Question</div>
               <!-- <div class="subtext">Confused about something?</div> -->
@@ -4583,7 +4583,7 @@ backend/anticheat
             target="_blank"
             href="mailto:jack@monkeytype.com?subject=[Account] "
           >
-            <div class="icon"><i class="fas fa-user-circle"></i></div>
+            <div class="icon"><i class="fas fa-circle-user"></i></div>
             <div class="textGroup">
               <div class="text">Account Help</div>
               <!-- <div class="subtext">Report any problems with your account like login issues.</div> -->
@@ -4605,7 +4605,7 @@ backend/anticheat
             target="_blank"
             href="mailto:jack@monkeytype.com?subject=[Other] "
           >
-            <div class="icon"><i class="fas fa-ellipsis-h"></i></div>
+            <div class="icon"><i class="fas fa-ellipsis"></i></div>
             <div class="textGroup">
               <div class="text">Other</div>
               <!-- <div class="subtext">We will try to help.</div> -->
@@ -4624,7 +4624,7 @@ backend/anticheat
           "
         >
           <div class="searchicon">
-            <i class="fas fa-search"></i>
+            <i class="fas fa-magnifying-glass"></i>
           </div>
           <input type="text" class="input" placeholder="Type to search" />
         </div>
@@ -4736,7 +4736,7 @@ backend/anticheat
               onclick="this.blur();"
             >
               <div class="icon">
-                <i class="fas fa-fw fa-cog"></i>
+                <i class="fas fa-fw fa-gear"></i>
               </div>
             </a>
             <a
@@ -4820,7 +4820,7 @@ backend/anticheat
                     100
                   </div>
                   <div class="text-button" wordCount="custom" tabindex="2">
-                    <i class="fas fa-tools"></i>
+                    <i class="fas fa-screwdriver-wrench"></i>
                   </div>
                 </div>
               </div>
@@ -4836,7 +4836,7 @@ backend/anticheat
                     120
                   </div>
                   <div class="text-button" timeConfig="custom" tabindex="2">
-                    <i class="fas fa-tools"></i>
+                    <i class="fas fa-screwdriver-wrench"></i>
                   </div>
                 </div>
               </div>
@@ -4859,7 +4859,7 @@ backend/anticheat
                     thicc
                   </div>
                   <div class="text-button" quoteLength="-2" tabindex="2">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-magnifying-glass"></i>
                   </div>
                 </div>
               </div>
@@ -4876,7 +4876,7 @@ backend/anticheat
             style="grid-column: 3/4; grid-row: 1/2"
             tabindex="0"
           >
-            <i class="fas fa-sign-out-alt"></i>
+            <i class="fas fa-right-from-bracket"></i>
             sign out
           </div>
         </div>
@@ -4921,7 +4921,7 @@ backend/anticheat
                 <div class="burst">1</div>
               </div>
               <div class="outOfFocusWarning hidden">
-                <i class="fas fa-mouse-pointer"></i>
+                <i class="fas fa-arrow-pointer"></i>
                 Click or press any key to focus
               </div>
               <div id="wordsWrapper" translate="no">
@@ -5119,7 +5119,7 @@ backend/anticheat
                 tabindex="0"
                 onclick="this.blur();"
               >
-                <i class="fas fa-fw fa-redo-alt"></i>
+                <i class="fas fa-fw fa-arrow-rotate-right"></i>
               </div>
               <div id="monkey" class="hidden">
                 <div class="up"></div>
@@ -5261,7 +5261,7 @@ backend/anticheat
                       data-balloon-pos="up"
                       style="display: inline-block"
                     >
-                      <i class="fas fa-fw fa-fire-alt"></i>
+                      <i class="fas fa-fw fa-fire-flame-curved"></i>
                     </span>
                     <div class="heatmapLegend hidden">
                       <div>slow</div>
@@ -5301,7 +5301,7 @@ backend/anticheat
                   tabindex="0"
                   onclick="this.blur();"
                 >
-                  <i class="fas fa-redo"></i>
+                  <i class="fas fa-arrow-rotate-right"></i>
                   Retry saving result
                 </div>
                 <div class="buttons">
@@ -5321,7 +5321,7 @@ backend/anticheat
                     tabindex="0"
                     onclick="this.blur();"
                   >
-                    <i class="fas fa-fw fa-sync-alt"></i>
+                    <i class="fas fa-fw fa-rotate"></i>
                   </div>
                   <div
                     id="practiseWordsButton"
@@ -5330,7 +5330,7 @@ backend/anticheat
                     tabindex="0"
                     onclick="this.blur();"
                   >
-                    <i class="fas fa-fw fa-exclamation-triangle"></i>
+                    <i class="fas fa-fw fa-triangle-exclamation"></i>
                   </div>
                   <div
                     id="showWordHistoryButton"
@@ -5366,7 +5366,7 @@ backend/anticheat
           </div>
           <div class="page pageAbout hidden">
             <div class="scrollToTopButton invisible">
-              <i class="fas fa-angle-double-up"></i>
+              <i class="fas fa-angles-up"></i>
             </div>
             <div class="created">
               Created with love by Miodec.
@@ -5465,7 +5465,7 @@ backend/anticheat
               </p>
               <div class="supportButtons">
                 <a class="button ads">
-                  <div class="fas fa-ad"></div>
+                  <div class="fas fa-rectangle-ad"></div>
                   Ads
                 </a>
                 <a
@@ -5474,7 +5474,7 @@ backend/anticheat
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div class="fas fa-donate"></div>
+                  <div class="fas fa-circle-dollar-to-slot"></div>
                   Ko-Fi
                 </a>
                 <a
@@ -5492,7 +5492,7 @@ backend/anticheat
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div class="fas fa-tshirt"></div>
+                  <div class="fas fa-shirt"></div>
                   Merch
                 </a>
               </div>
@@ -5594,7 +5594,7 @@ backend/anticheat
           </div>
           <div class="page pageSettings hidden">
             <div class="scrollToTopButton">
-              <i class="fas fa-angle-double-up"></i>
+              <i class="fas fa-angles-up"></i>
             </div>
             <div class="tip">
               tip: You can also change all these settings quickly using the
@@ -5663,7 +5663,7 @@ backend/anticheat
                     aria-label="Unlink"
                     data-balloon-pos="up"
                   >
-                    <i class="fas fa-unlink" aria-hidden="true"></i>
+                    <i class="fas fa-link-slash" aria-hidden="true"></i>
                   </div>
                 </div>
               </div>
@@ -5679,7 +5679,7 @@ backend/anticheat
                   <div class="tagsList">
                     <div class="tag" id="0">
                       <div class="active">
-                        <i class="fas fa-check-square"></i>
+                        <i class="fas fa-square-check"></i>
                       </div>
                       <div class="title">staggered</div>
                       <div class="editButton"><i class="fas fa-pen"></i></div>
@@ -5902,7 +5902,7 @@ backend/anticheat
                       tabindex="0"
                       onclick="this.blur();"
                     >
-                      <i class="fas fa-save fa-fw"></i>
+                      <i class="fas fa-floppy-disk fa-fw"></i>
                     </div>
                   </div>
                   <div class="buttons">
@@ -5947,7 +5947,7 @@ backend/anticheat
                       tabindex="0"
                       onclick="this.blur();"
                     >
-                      <i class="fas fa-save fa-fw"></i>
+                      <i class="fas fa-floppy-disk fa-fw"></i>
                     </div>
                   </div>
                   <div class="buttons">
@@ -5993,7 +5993,7 @@ backend/anticheat
                       tabindex="0"
                       onclick="this.blur();"
                     >
-                      <i class="fas fa-save fa-fw"></i>
+                      <i class="fas fa-floppy-disk fa-fw"></i>
                     </div>
                   </div>
                   <div class="buttons">
@@ -6078,7 +6078,7 @@ backend/anticheat
                     tabindex="0"
                   />
                   <div class="button save" tabindex="0" onclick="this.blur();">
-                    <i class="fas fa-save fa-fw"></i>
+                    <i class="fas fa-floppy-disk fa-fw"></i>
                   </div>
                 </div>
               </div>
@@ -6533,7 +6533,7 @@ backend/anticheat
                       tabindex="0"
                       onclick="this.blur();"
                     >
-                      <i class="fas fa-save fa-fw"></i>
+                      <i class="fas fa-floppy-disk fa-fw"></i>
                     </div>
                   </div>
                   <div class="buttons">
@@ -7157,7 +7157,7 @@ backend/anticheat
                       tabindex="0"
                       onclick="this.blur();"
                     >
-                      <i class="fas fa-save fa-fw"></i>
+                      <i class="fas fa-floppy-disk fa-fw"></i>
                     </div>
                   </div>
                   <div class="buttons">
@@ -7216,7 +7216,7 @@ backend/anticheat
                   </div>
                   <div class="saveContainer">
                     <div class="save button" style="grid-column: 3">
-                      <!-- <i class="fas fa-save fa-fw"></i> -->
+                      <!-- <i class="fas fa-floppy-disk fa-fw"></i> -->
                       save
                     </div>
                   </div>
@@ -7909,7 +7909,7 @@ backend/anticheat
                   </label>
                 </div>
                 <div class="button signIn">
-                  <i class="fas fa-sign-in-alt"></i>
+                  <i class="fas fa-right-to-bracket"></i>
                   Sign In
                 </div>
                 <div style="font-size: 0.75rem; text-align: center">or</div>
@@ -7927,7 +7927,7 @@ backend/anticheat
 
           <div class="page pageAccount hidden">
             <div class="scrollToTopButton">
-              <i class="fas fa-angle-double-up"></i>
+              <i class="fas fa-angles-up"></i>
             </div>
             <div class="preloader">
               <div class="icon">
@@ -8220,7 +8220,7 @@ backend/anticheat
                       aria-label="Due to the increasing number of results in the database, you can now only see your last 1000 results in detail. Total time spent typing, started and completed tests stats will still be up to date at the top of the page, above the filters."
                       data-balloon-pos="up"
                     >
-                      <i class="fas fa-question-circle"></i>
+                      <i class="fas fa-circle-question"></i>
                     </span>
                   </div>
                   <div class="val">-</div>
@@ -8395,7 +8395,7 @@ backend/anticheat
                 <div class="text">Terms</div>
               </a>
               <a href="security-policy.html" target="_blank">
-                <i class="fas fa-fw fa-shield-alt"></i>
+                <i class="fas fa-fw fa-shield-halved"></i>
                 <div class="text">Security</div>
               </a>
               <a href="privacy-policy.html" target="_blank">
@@ -8403,7 +8403,7 @@ backend/anticheat
                 <div class="text">Privacy</div>
               </a>
               <a id="supportMeButton">
-                <i class="fas fa-fw fa-donate"></i>
+                <i class="fas fa-fw fa-circle-dollar-to-slot"></i>
                 <div class="text">Donate</div>
               </a>
             </div>
@@ -9246,7 +9246,7 @@ letter {
         })
         .catch((error) => {
           $("#middle .preloader .icon").html(
-            `<i class="fas fa-fw fa-times"></i>`
+            `<i class="fas fa-fw fa-xmark"></i>`
           );
           $("#middle .preloader .text").text(error.message);
 
@@ -9306,7 +9306,7 @@ letter {
             })
             .catch((error) => {
               $("#middle .preloader .icon").html(
-                `<i class="fas fa-fw fa-times"></i>`
+                `<i class="fas fa-fw fa-xmark"></i>`
               );
               $("#middle .preloader .text").text(error.message);
               // Error occurred during confirmation. The code might have expired or the
@@ -9315,7 +9315,7 @@ letter {
         })
         .catch((error) => {
           $("#middle .preloader .icon").html(
-            `<i class="fas fa-fw fa-times"></i>`
+            `<i class="fas fa-fw fa-xmark"></i>`
           );
           $("#middle .preloader .text").text(error.message);
           // $("#middle .preloader .subText").text(error);
@@ -9358,7 +9358,7 @@ letter {
 
           if (!mode) {
             $("#middle .preloader .icon").html(
-              `<i class="fas fa-fw fa-times"></i>`
+              `<i class="fas fa-fw fa-xmark"></i>`
             );
             $("#middle .preloader .text").text(`Mode parameter not found`);
             return;
@@ -9366,7 +9366,7 @@ letter {
 
           if (!actionCode) {
             $("#middle .preloader .icon").html(
-              `<i class="fas fa-fw fa-times"></i>`
+              `<i class="fas fa-fw fa-xmark"></i>`
             );
             $("#middle .preloader .text").text(
               `Action code parameter not found`
@@ -9394,7 +9394,7 @@ letter {
               break;
             default:
               $("#middle .preloader .icon").html(
-                `<i class="fas fa-fw fa-times"></i>`
+                `<i class="fas fa-fw fa-xmark"></i>`
               );
               $("#middle .preloader .text").text(`Invalid mode`);
               console.error("no mode found");
@@ -9410,7 +9410,7 @@ letter {
           });
         } catch (e) {
           $("#middle .preloader .icon").html(
-            `<i class="fas fa-fw fa-times"></i>`
+            `<i class="fas fa-fw fa-xmark"></i>`
           );
           $("#middle .preloader .text").text(
             `Fatal error: ${e.message}. If this issue persists, please report it.`
@@ -24284,7 +24284,7 @@ function getWordHTML(word) {
         retval += `<letter><i class="fas fa-arrow-right"></i></letter>`;
       }
     } else if (word.charAt(c) === "t") {
-      retval += `<letter class='tabChar'><i class="fas fa-long-arrow-alt-right"></i></letter>`;
+      retval += `<letter class='tabChar'><i class="fas fa-right-long"></i></letter>`;
     } else if (word.charAt(c) === "\n") {
       newlineafter = true;
       retval += `<letter class='nlChar'><i class="fas fa-angle-down"></i></letter>`;
@@ -24489,7 +24489,7 @@ export function updateWordElement(showError = !Config.blindMode) {
   if (Config.mode === "zen") {
     for (let i = 0; i < TestLogic.input.current.length; i++) {
       if (TestLogic.input.current[i] === "t") {
-        ret += `<letter class='tabChar correct' style="opacity: 0"><i class="fas fa-long-arrow-alt-right"></i></letter>`;
+        ret += `<letter class='tabChar correct' style="opacity: 0"><i class="fas fa-right-long"></i></letter>`;
       } else if (TestLogic.input.current[i] === "\n") {
         newlineafter = true;
         ret += `<letter class='nlChar correct' style="opacity: 0"><i class="fas fa-angle-down"></i></letter>`;
@@ -24543,7 +24543,7 @@ export function updateWordElement(showError = !Config.blindMode) {
         }
       } else if (currentLetter === "t") {
         tabChar = "tabChar";
-        currentLetter = `<i class="fas fa-long-arrow-alt-right"></i>`;
+        currentLetter = `<i class="fas fa-right-long"></i>`;
       } else if (currentLetter === "\n") {
         nlChar = "nlChar";
         currentLetter = `<i class="fas fa-angle-down"></i>`;
@@ -24621,7 +24621,7 @@ export function updateWordElement(showError = !Config.blindMode) {
             ret += `<letter><i class="fas fa-arrow-right"></i></letter>`;
           }
         } else if (currentWord[i] === "t") {
-          ret += `<letter class='tabChar'><i class="fas fa-long-arrow-alt-right"></i></letter>`;
+          ret += `<letter class='tabChar'><i class="fas fa-right-long"></i></letter>`;
         } else if (currentWord[i] === "\n") {
           ret += `<letter class='nlChar'><i class="fas fa-angle-down"></i></letter>`;
         } else {
@@ -24715,13 +24715,13 @@ export function updateModesNotice() {
 
   if (TestLogic.isRepeated && Config.mode !== "quote") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button restart" style="color:var(--error-color);"><i class="fas fa-sync-alt"></i>repeated</div>`
+      `<div class="text-button restart" style="color:var(--error-color);"><i class="fas fa-rotate"></i>repeated</div>`
     );
   }
 
   if (TestLogic.hasTab) {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button"><i class="fas fa-long-arrow-alt-right"></i>shift + tab to restart</div>`
+      `<div class="text-button"><i class="fas fa-right-long"></i>shift + tab to restart</div>`
     );
   }
 
@@ -24733,7 +24733,7 @@ export function updateModesNotice() {
 
   if (Config.mode === "zen") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button"><i class="fas fa-poll"></i>shift + enter to finish zen </div>`
+      `<div class="text-button"><i class="fas fa-square-poll-vertical"></i>shift + enter to finish zen </div>`
     );
   }
 
@@ -24746,7 +24746,7 @@ export function updateModesNotice() {
     Config.mode !== "quote"
   ) {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsLanguages"><i class="fas fa-globe-americas"></i>${Config.language.replace(
+      `<div class="text-button" commands="commandsLanguages"><i class="fas fa-earth-americas"></i>${Config.language.replace(
         /_/g,
         " "
       )}</div>`
@@ -24755,7 +24755,7 @@ export function updateModesNotice() {
 
   if (Config.difficulty === "expert") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsDifficulty"><i class="fas fa-star-half-alt"></i>expert</div>`
+      `<div class="text-button" commands="commandsDifficulty"><i class="fas fa-star-half-stroke"></i>expert</div>`
     );
   } else if (Config.difficulty === "master") {
     $(".pageTest #testModesNotice").append(
@@ -24784,7 +24784,7 @@ export function updateModesNotice() {
       speed = ` (${Math.round(PaceCaret.settings.wpm)} wpm)`;
     } catch {}
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsPaceCaret"><i class="fas fa-tachometer-alt"></i>${
+      `<div class="text-button" commands="commandsPaceCaret"><i class="fas fa-gauge-high"></i>${
         Config.paceCaret === "average"
           ? "average"
           : Config.paceCaret === "pb"
@@ -24825,18 +24825,18 @@ export function updateModesNotice() {
 
   if (Config.confidenceMode === "on") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsConfidenceMode"><i class="fas fa-backspace"></i>confidence</div>`
+      `<div class="text-button" commands="commandsConfidenceMode"><i class="fas fa-delete-left"></i>confidence</div>`
     );
   }
   if (Config.confidenceMode === "max") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsConfidenceMode"><i class="fas fa-backspace"></i>max confidence</div>`
+      `<div class="text-button" commands="commandsConfidenceMode"><i class="fas fa-delete-left"></i>max confidence</div>`
     );
   }
 
   if (Config.stopOnError != "off") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsStopOnError"><i class="fas fa-hand-paper"></i>stop on ${Config.stopOnError}</div>`
+      `<div class="text-button" commands="commandsStopOnError"><i class="fas fa-hand"></i>stop on ${Config.stopOnError}</div>`
     );
   }
 
@@ -24851,7 +24851,7 @@ export function updateModesNotice() {
 
   if (Config.oppositeShiftMode !== "off") {
     $(".pageTest #testModesNotice").append(
-      `<div class="text-button" commands="commandsOppositeShiftMode"><i class="fas fa-exchange-alt"></i>opposite shift${
+      `<div class="text-button" commands="commandsOppositeShiftMode"><i class="fas fa-right-left"></i>opposite shift${
         Config.oppositeShiftMode === "keymap" ? " (keymap)" : ""
       }</div>`
     );

@@ -19,7 +19,7 @@ const commands: Command[] = [
     visible: false,
     id: "applyPreset",
     display: "Presets...",
-    icon: "fa-sliders-h",
+    icon: "fa-sliders",
     subgroup,
     available: (): boolean => {
       return isAuthenticated();

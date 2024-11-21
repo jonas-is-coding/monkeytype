@@ -12,7 +12,7 @@ const searchIndicator = new InputIndicator(
       level: -1,
     },
     error: {
-      icon: "fa-times",
+      icon: "fa-xmark",
       level: -1,
     },
     checking: {

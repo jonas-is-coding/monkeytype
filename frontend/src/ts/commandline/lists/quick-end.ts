@@ -28,7 +28,7 @@ const commands: Command[] = [
   {
     id: "changeQuickEnd",
     display: "Quick end...",
-    icon: "fa-step-forward",
+    icon: "fa-forward-step",
     subgroup,
   },
 ];

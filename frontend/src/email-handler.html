@@ -200,7 +200,7 @@
           $("main .preloader .subText").text(`You can now close this tab`);
         })
         .catch((error) => {
-          $("main .preloader .icon").html(`<i class="fas fa-fw fa-times"></i>`);
+          $("main .preloader .icon").html(`<i class="fas fa-fw fa-xmark"></i>`);
           $("main .preloader .text").text(error.message);
 
           // Code is invalid or expired. Ask the user to verify their email address
@@ -257,7 +257,7 @@
             })
             .catch((error) => {
               $("main .preloader .icon").html(
-                `<i class="fas fa-fw fa-times"></i>`
+                `<i class="fas fa-fw fa-xmark"></i>`
               );
               $("main .preloader .text").text(error.message);
               // Error occurred during confirmation. The code might have expired or the
@@ -265,7 +265,7 @@
             });
         })
         .catch((error) => {
-          $("main .preloader .icon").html(`<i class="fas fa-fw fa-times"></i>`);
+          $("main .preloader .icon").html(`<i class="fas fa-fw fa-xmark"></i>`);
           $("main .preloader .text").text(error.message);
           // $("main .preloader .subText").text(error);
 
@@ -309,7 +309,7 @@
           // in case the account was compromised:
         })
         .catch((error) => {
-          $("main .preloader .icon").html(`<i class="fas fa-fw fa-times"></i>`);
+          $("main .preloader .icon").html(`<i class="fas fa-fw fa-xmark"></i>`);
           $("main .preloader .text").text(error.message);
         });
     }
@@ -322,7 +322,7 @@
           $("main .preloader .subText").text(`Please check your inbox`);
         })
         .catch((error) => {
-          $("main .preloader .icon").html(`<i class="fas fa-fw fa-times"></i>`);
+          $("main .preloader .icon").html(`<i class="fas fa-fw fa-xmark"></i>`);
           $("main .preloader .text").text(error.message);
         });
     }
@@ -360,7 +360,7 @@
 
           if (!mode) {
             $("main .preloader .icon").html(
-              `<i class="fas fa-fw fa-times"></i>`
+              `<i class="fas fa-fw fa-xmark"></i>`
             );
             $("main .preloader .text").text(`Mode parameter not found`);
             return;
@@ -368,7 +368,7 @@
 
           if (!actionCode) {
             $("main .preloader .icon").html(
-              `<i class="fas fa-fw fa-times"></i>`
+              `<i class="fas fa-fw fa-xmark"></i>`
             );
             $("main .preloader .text").text(`Action code parameter not found`);
             return;
@@ -394,7 +394,7 @@
               break;
             default:
               $("main .preloader .icon").html(
-                `<i class="fas fa-fw fa-times"></i>`
+                `<i class="fas fa-fw fa-xmark"></i>`
               );
               $("main .preloader .text").text(`Invalid mode`);
               console.error("no mode found");
@@ -409,7 +409,7 @@
             if (e.key === "Enter") handleResetPassword(actionCode, continueUrl);
           });
         } catch (e) {
-          $("main .preloader .icon").html(`<i class="fas fa-fw fa-times"></i>`);
+          $("main .preloader .icon").html(`<i class="fas fa-fw fa-xmark"></i>`);
           $("main .preloader .text").text(
             `Fatal error: ${e.message}. If this issue persists, please report it.`
           );

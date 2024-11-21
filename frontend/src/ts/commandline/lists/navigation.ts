@@ -35,7 +35,7 @@ const commands: Command[] = [
     id: "viewSettings",
     display: "View Settings Page",
     alias: "navigate go to",
-    icon: "fa-cog",
+    icon: "fa-gear",
     exec: (): void => {
       navigate("/settings");
     },

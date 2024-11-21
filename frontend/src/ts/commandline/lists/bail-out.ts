@@ -52,7 +52,7 @@ const commands: Command[] = [
   {
     id: "bailOut",
     display: "Bail out...",
-    icon: "fa-running",
+    icon: "fa-person-running",
     subgroup,
     visible: false,
     available: (): boolean => {

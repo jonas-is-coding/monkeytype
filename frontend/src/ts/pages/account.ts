@@ -69,12 +69,12 @@ function loadMoreLines(lineIndex?: number): void {
     let icons = `<span aria-label="${result.language?.replace(
       "_",
       " "
-    )}" data-balloon-pos="up"><i class="fas fa-fw fa-globe-americas"></i></span>`;
+    )}" data-balloon-pos="up"><i class="fas fa-fw fa-earth-americas"></i></span>`;
 
     if (diff === "normal") {
       icons += `<span aria-label="${result.difficulty}" data-balloon-pos="up"><i class="far fa-fw fa-star"></i></span>`;
     } else if (diff === "expert") {
-      icons += `<span aria-label="${result.difficulty}" data-balloon-pos="up"><i class="fas fa-fw fa-star-half-alt"></i></span>`;
+      icons += `<span aria-label="${result.difficulty}" data-balloon-pos="up"><i class="fas fa-fw fa-star-half-stroke"></i></span>`;
     } else if (diff === "master") {
       icons += `<span aria-label="${result.difficulty}" data-balloon-pos="up"><i class="fas fa-fw fa-star"></i></span>`;
     }
@@ -1300,7 +1300,7 @@ export const page = new Page({
       $(".pageAccount .content .accountVerificatinNotice").remove();
       if (Auth?.currentUser?.emailVerified === false) {
         $(".pageAccount .content").prepend(
-          `<div class="accountVerificatinNotice"><i class="fas icon fa-exclamation-triangle"></i><p>Your email address is still not verified</p><button class="sendVerificationEmail">resend verification email</button></div>`
+          `<div class="accountVerificatinNotice"><i class="fas icon fa-triangle-exclamation"></i><p>Your email address is still not verified</p><button class="sendVerificationEmail">resend verification email</button></div>`
         );
       }
       ResultBatches.showOrHideIfNeeded();

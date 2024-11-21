@@ -50,7 +50,7 @@ const commands: Command[] = [
   {
     id: "changeSoundVolume",
     display: "Sound volume...",
-    icon: "fa-volume-down",
+    icon: "fa-volume-low",
     subgroup,
   },
 ];

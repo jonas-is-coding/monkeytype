@@ -40,7 +40,7 @@ const commands: Command[] = [
   {
     id: "changeOppositeShiftMode",
     display: "Change opposite shift mode...",
-    icon: "fa-exchange-alt",
+    icon: "fa-right-left",
     subgroup,
   },
 ];

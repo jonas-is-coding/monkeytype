@@ -328,7 +328,7 @@ async function fillTable(lb: LbKey): Promise<void> {
       entry.rank = i + 1;
     }
 
-    let avatar = `<div class="avatarPlaceholder"><i class="fas fa-user-circle"></i></div>`;
+    let avatar = `<div class="avatarPlaceholder"><i class="fas fa-circle-user"></i></div>`;
 
     if (entry.discordAvatar !== undefined) {
       avatar = `<div class="avatarPlaceholder"><i class="fas fa-circle-notch fa-spin"></i></div>`;
@@ -679,7 +679,7 @@ function fillAvatars(lb: LbKey): void {
       );
     } else {
       $(element).html(
-        `<div class="avatarPlaceholder"><i class="fas fa-user-circle"></i></div>`
+        `<div class="avatarPlaceholder"><i class="fas fa-circle-user"></i></div>`
       );
     }
   }
